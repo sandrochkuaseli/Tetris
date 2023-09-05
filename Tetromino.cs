@@ -33,6 +33,7 @@ namespace Tetris{
         }
 
         // Method move later allows us to move a tetromino in any direction
+        // At this time we see that is changes the offset of a tetormino on a grid
         public void Move(int rows, int columns){
             offset.Row += rows;
             offset.Column += columns;
