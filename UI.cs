@@ -310,6 +310,7 @@ public class TetrisWindow : Gtk.Window
     {
         Application.Init();
         var mainWindow = new TetrisWindow();
+        mainWindow.Resizable = false;
         Application.Run();
     }
 
